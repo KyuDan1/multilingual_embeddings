@@ -1,0 +1,10 @@
+Average L2 distances from English embeddings:
+Before fine-tuning:
+  English to etok: 7.3079
+  English to ktoe: 7.2535
+  English to korean: 9.2112
+
+After fine-tuning:
+  English to etok: 2.3727
+  English to ktoe: 2.4343
+  English to korean: 3.0157
