@@ -123,7 +123,7 @@ class EmbeddingFinetuner:
         for param in english_model.parameters():
             param.requires_grad = False
         
-        # 학습할 모델에서는 최적화기를 사용하여 파라미터 업데이트
+        # 학습할 모델에서는 파라미터 업데이트
         optimizer = torch.optim.Adam(self.model.parameters(), lr=lr)
         
         self.model.train()
